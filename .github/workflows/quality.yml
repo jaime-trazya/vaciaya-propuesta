@@ -1,0 +1,47 @@
+name: Calidad inicial
+on:
+  push:
+    branches: [pruebas, main]
+  pull_request:
+    branches: [pruebas, main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  estructura:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar estructura y enlaces locales si existe una web
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import unquote, urlsplit
+          root = Path('.').resolve()
+          assert (root/'README.md').is_file(), 'Falta README.md'
+          htmls = [p for p in root.rglob('*.html') if not ({'.git', 'node_modules', 'dist', 'build'} & set(p.parts))]
+          if not htmls:
+              print('Proyecto inicial: todavia no hay HTML. Pruebas de navegador pendientes.')
+              raise SystemExit(0)
+          class Links(HTMLParser):
+              def __init__(self): super().__init__(); self.links=[]
+              def handle_starttag(self, tag, attrs):
+                  for k,v in attrs:
+                      if k in ('src','href') and v: self.links.append(v)
+          errors=[]
+          for html in htmls:
+              parser=Links(); parser.feed(html.read_text(encoding='utf-8',errors='replace'))
+              for url in parser.links:
+                  if url.startswith(('#','//','data:','mailto:','tel:','javascript:')): continue
+                  u=urlsplit(url)
+                  if u.scheme or u.netloc or not u.path: continue
+                  path=unquote(u.path)
+                  target=(root/path.lstrip('/') if path.startswith('/') else html.parent/path).resolve()
+                  if not target.is_relative_to(root): continue
+                  if target.is_dir(): target=target/'index.html'
+                  if not target.exists(): errors.append(f'{html}: {url}')
+          if errors: raise SystemExit('Enlaces o recursos no encontrados:\\n'+'\\n'.join(errors[:30]))
+          print(f'Comprobados {len(htmls)} archivos HTML')
+          PY
