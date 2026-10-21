@@ -1,59 +1,60 @@
-import Image from 'next/image'
-import { SectionHeading } from './section-heading'
-
+import Image from "next/image";
 const situations = [
-  {
-    title: 'Antes de una reforma',
-    text: 'Despejar las estancias para que la obra pueda empezar sin muebles de por medio.',
-  },
-  {
-    title: 'Cambio de vivienda',
-    text: 'Cuando te mudas y hay muebles u objetos que no vas a llevarte al nuevo hogar.',
-  },
-  {
-    title: 'Cierre de un negocio',
-    text: 'Oficinas y locales que deben entregarse vacíos al finalizar una actividad o un alquiler.',
-  },
-  {
-    title: 'Viviendas que deben quedar despejadas',
-    text: 'Herencias, pisos para vender o alquilar, o casas que llevan tiempo cerradas.',
-  },
-]
-
+  [
+    "Una reforma en el horizonte",
+    "Despejar las estancias para preparar el espacio antes de empezar una obra.",
+  ],
+  [
+    "Un cambio de vivienda",
+    "Retirar los muebles y objetos que no se trasladarán al nuevo hogar.",
+  ],
+  [
+    "El cierre de un local",
+    "Organizar el vaciado al finalizar una actividad o un alquiler.",
+  ],
+  [
+    "Una nueva distribución",
+    "Liberar una habitación, un despacho o ese espacio que quieres usar de otra manera.",
+  ],
+];
 export function Situations() {
   return (
     <section
+      className="situations-section section-space"
       aria-labelledby="situaciones-title"
-      className="bg-inverse py-16 text-inverse-foreground md:py-24"
     >
-      <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-12">
-        <div className="flex flex-col gap-10 lg:col-span-5">
-          <SectionHeading
-            id="situaciones-title"
-            eyebrow="Situaciones habituales"
-            title="Cuando un espacio necesita volver a empezar"
-            inverse
-          />
-          <figure className="relative aspect-[4/3] overflow-hidden rounded-lg">
+      <div className="section-shell situations-layout">
+        <div className="situations-visual">
+          <p className="eyebrow">03 / Situaciones habituales</p>
+          <h2 id="situaciones-title">
+            Hay muchas razones
+            <br />
+            para <em>hacer espacio.</em>
+          </h2>
+          <figure className="situations-photo">
             <Image
-              src="/images/local-vacio.png"
-              alt="Local comercial vacío con escaparate de cristal y suelo de terrazo"
+              src="/images/dormitorio-despejado.webp"
+              alt="Interior despejado con paredes claras y luz natural"
               fill
-              sizes="(min-width: 1024px) 40vw, 100vw"
+              sizes="(min-width: 900px) 42vw, 100vw"
               className="object-cover"
             />
           </figure>
         </div>
-
-        <ul className="grid gap-px self-end overflow-hidden rounded-lg bg-inverse-foreground/15 sm:grid-cols-2 lg:col-span-7">
-          {situations.map((s) => (
-            <li key={s.title} className="flex flex-col gap-3 bg-inverse p-6 md:p-8">
-              <h3 className="text-balance font-serif text-2xl">{s.title}</h3>
-              <p className="leading-relaxed text-inverse-foreground/75">{s.text}</p>
-            </li>
+        <div className="situations-list">
+          {situations.map(([title, text], index) => (
+            <article key={title}>
+              <span className="eyebrow" aria-hidden="true">
+                0{index + 1}
+              </span>
+              <div>
+                <h3>{title}</h3>
+                <p>{text}</p>
+              </div>
+            </article>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
-  )
+  );
 }

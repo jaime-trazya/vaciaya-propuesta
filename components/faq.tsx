@@ -1,50 +1,63 @@
-import { Plus } from 'lucide-react'
-import { SectionHeading } from './section-heading'
-
+import { Plus } from "lucide-react";
 const faqs = [
-  {
-    q: '¿Qué datos tengo que indicar?',
-    a: 'Lo esencial es el tipo de servicio (vaciado completo o parcial), el tipo de inmueble, la localidad o código postal y tus datos de contacto. La fecha aproximada, la superficie, el número de estancias y los comentarios son opcionales, pero ayudan a que el presupuesto se ajuste mejor a la realidad.',
-  },
-  {
-    q: '¿Cómo puedo estimar el volumen a retirar?',
-    a: 'No hace falta calcularlo con exactitud. Indica la superficie aproximada, cuántas habitaciones o espacios hay y si están llenos, a medias o casi vacíos. También es útil mencionar trasteros, garajes o terrazas con objetos, el piso en el que se encuentra y si hay ascensor.',
-  },
-  {
-    q: '¿Puedo indicar muebles u objetos concretos?',
-    a: 'Sí. En el campo de comentarios puedes enumerar los muebles u objetos que quieres retirar, por ejemplo un sofá, dos armarios o varios electrodomésticos. Si se trata de un vaciado parcial, explica qué debe quedarse en el inmueble.',
-  },
-  {
-    q: '¿Puedo solicitar una fecha aproximada?',
-    a: 'Sí. Puedes indicar la fecha en la que te gustaría que el espacio estuviera despejado. Es una referencia orientativa: la disponibilidad final dependerá de cada empresa y se concretará al hablar del presupuesto.',
-  },
-]
-
+  [
+    "¿Tengo que saber la superficie exacta?",
+    "No. Una estimación de los metros cuadrados y del número de habitaciones es suficiente como orientación. Puedes dejar estos campos sin completar si no lo sabes y explicar en comentarios cuánto ocupa lo que quieres retirar.",
+  ],
+  [
+    "¿Puedo solicitar un vaciado parcial?",
+    "Sí. Selecciona «Vaciado parcial» y describe las habitaciones, los muebles o los objetos que quieres retirar. Indica también qué debe quedarse en el inmueble para que la empresa pueda valorar el alcance.",
+  ],
+  [
+    "¿Cómo describo los muebles y objetos?",
+    "Enumera las piezas principales, su cantidad y sus dimensiones aproximadas si las conoces. Por ejemplo: un sofá, dos armarios y diez cajas. Añade la planta, si hay ascensor y cualquier detalle sobre el acceso. Evita incluir datos personales de terceros.",
+  ],
+  [
+    "¿Puedo proponer una fecha?",
+    "Sí. La fecha aproximada es una referencia para valorar tu petición. La disponibilidad y el día del trabajo se acuerdan con la empresa que presente el presupuesto; no se garantiza una fecha por completar el formulario.",
+  ],
+  [
+    "¿Quién gestiona la solicitud y quién hace el vaciado?",
+    "ANJA gestiona el servicio de intermediación de Vacía Ya. Las empresas de vaciado, transporte y logística pueden valorar la solicitud y presentar su presupuesto. El trabajo y sus condiciones se contratan directamente con la empresa elegida.",
+  ],
+  [
+    "¿Se envía algún dato en esta demostración?",
+    "No. Este prototipo permite probar el formulario, pero no envía, guarda ni comparte los datos introducidos. Al terminar verás una confirmación que indica expresamente que se trata de una demostración.",
+  ],
+];
 export function Faq() {
   return (
-    <section id="preguntas" aria-labelledby="faq-title" className="py-16 md:py-24">
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <SectionHeading id="faq-title" eyebrow="Preguntas frecuentes" title="Antes de pedir presupuesto" />
+    <section
+      id="preguntas"
+      className="section-space faq-section"
+      aria-labelledby="faq-title"
+    >
+      <div className="section-shell faq-layout">
+        <div>
+          <p className="eyebrow">05 / Resolvemos tus dudas</p>
+          <h2 id="faq-title">
+            Antes de
+            <br />
+            <em>hacer espacio.</em>
+          </h2>
+          <p className="faq-intro">
+            Lo que conviene saber para describir tu solicitud con tranquilidad.
+          </p>
         </div>
-        <div className="lg:col-span-8">
-          {faqs.map((item) => (
-            <details
-              key={item.q}
-              className="group border-t border-border py-5 last:border-b [&_summary::-webkit-details-marker]:hidden"
-            >
-              <summary className="flex cursor-pointer list-none items-start justify-between gap-6 font-serif text-xl leading-snug sm:text-2xl">
-                {item.q}
-                <Plus
-                  aria-hidden="true"
-                  className="mt-1 size-5 shrink-0 text-primary transition-transform group-open:rotate-45"
-                />
+        <div className="faq-list">
+          {faqs.map(([question, answer]) => (
+            <details key={question}>
+              <summary>
+                {question}
+                <Plus size={19} aria-hidden="true" />
               </summary>
-              <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">{item.a}</p>
+              <div className="faq-answer">
+                <p>{answer}</p>
+              </div>
             </details>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

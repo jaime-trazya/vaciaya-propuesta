@@ -1,46 +1,65 @@
-import { SectionHeading } from './section-heading'
-
+import { ArrowDownRight } from "lucide-react";
 const steps = [
-  {
-    title: 'Describe el espacio',
-    text: 'Indica el tipo de inmueble, dónde está, su superficie aproximada y qué contiene.',
-  },
-  {
-    title: 'Gestionamos tu solicitud',
-    text: 'ANJA revisa la información recibida y la organiza para que se entienda bien qué necesitas.',
-  },
-  {
-    title: 'Recibe presupuesto',
-    text: 'Empresas del sector pueden ponerse en contacto contigo para prepararte un presupuesto.',
-  },
-]
-
+  [
+    "Describe el inmueble y los objetos",
+    "Cuéntanos dónde está, qué quieres retirar y cuándo te vendría bien. No necesitas tener todos los detalles.",
+  ],
+  [
+    "ANJA gestiona tu solicitud",
+    "La información sirve para orientar tu petición hacia empresas del sector del vaciado, el transporte y la logística.",
+  ],
+  [
+    "Las empresas pueden ofrecerte presupuesto",
+    "Si pueden atender tu petición, podrán contactarte para concretar los detalles y presentarte su propuesta. Tú decides.",
+  ],
+];
 export function HowItWorks() {
   return (
-    <section id="como-funciona" aria-labelledby="como-title" className="py-16 md:py-24">
-      <div className="mx-auto max-w-6xl px-5">
-        <SectionHeading
-          id="como-title"
-          eyebrow="Cómo funciona"
-          title="Tres pasos, sin compromiso"
-          intro="Vacía Ya es un servicio para solicitar presupuestos. Los trabajos los realizan, en su caso, las empresas que te presenten su propuesta."
-        />
-
-        <ol className="mt-12 grid gap-8 md:grid-cols-3 md:gap-6">
-          {steps.map((step, i) => (
-            <li key={step.title} className="flex flex-col gap-4 border-t-2 border-primary pt-6">
-              <span className="font-serif text-5xl italic leading-none text-primary" aria-hidden="true">
-                {i + 1}
+    <section
+      id="como-funciona"
+      className="process-section section-space"
+      aria-labelledby="como-title"
+    >
+      <div className="section-shell process-layout">
+        <div className="process-intro">
+          <p className="eyebrow">04 / Cómo funciona</p>
+          <h2 id="como-title">
+            El primer paso
+            <br />
+            es <em>contárnoslo.</em>
+          </h2>
+          <p>
+            Vacía Ya conecta tu necesidad con empresas que pueden valorar el
+            trabajo.
+          </p>
+          <ArrowDownRight
+            className="process-arrow"
+            size={66}
+            strokeWidth={0.8}
+            aria-hidden="true"
+          />
+          <p className="process-note">
+            Servicio de intermediación de ANJA. Los trabajos se acuerdan
+            directamente con la empresa elegida.
+          </p>
+        </div>
+        <ol className="process-list">
+          {steps.map(([title, text], index) => (
+            <li key={title}>
+              <span className="step-number" aria-hidden="true">
+                0{index + 1}
               </span>
-              <h3 className="font-serif text-2xl">
-                <span className="sr-only">Paso {i + 1}: </span>
-                {step.title}
-              </h3>
-              <p className="leading-relaxed text-muted-foreground">{step.text}</p>
+              <div>
+                <h3>
+                  <span className="sr-only">Paso {index + 1}: </span>
+                  {title}
+                </h3>
+                <p>{text}</p>
+              </div>
             </li>
           ))}
         </ol>
       </div>
     </section>
-  )
+  );
 }

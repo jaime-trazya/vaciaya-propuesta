@@ -1,0 +1,209 @@
+{
+    "lighthouse":  {
+                       "metrics":  {
+                                       "first-contentful-paint":  "0.9 s",
+                                       "largest-contentful-paint":  "3.4 s",
+                                       "total-blocking-time":  "370 ms",
+                                       "cumulative-layout-shift":  "0"
+                                   },
+                       "scores":  {
+                                      "performance":  82,
+                                      "accessibility":  100,
+                                      "best-practices":  100,
+                                      "seo":  63
+                                  },
+                       "note":  "Mobile simulation. Indexing is deliberately disabled."
+                   },
+    "build":  "passed",
+    "browser":  "Edge / Chromium headless",
+    "date":  "2026-10-21",
+    "vercel":  {
+                   "scope":  "jaimeperez-9212s-projects",
+                   "status":  "not_found",
+                   "deployed":  false,
+                   "project":  "ya-vaciaya"
+               },
+    "functional":  {
+                       "layouts":  [
+                                       {
+                                           "width":  320,
+                                           "height":  568,
+                                           "overflow":  false,
+                                           "formTop":  409.484375,
+                                           "firstControlTop":  496.984375,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  360,
+                                           "height":  640,
+                                           "overflow":  false,
+                                           "formTop":  416.484375,
+                                           "firstControlTop":  503.984375,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  390,
+                                           "height":  844,
+                                           "overflow":  false,
+                                           "formTop":  416.484375,
+                                           "firstControlTop":  503.984375,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  667,
+                                           "height":  375,
+                                           "overflow":  false,
+                                           "formTop":  466.484375,
+                                           "firstControlTop":  553.984375,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  768,
+                                           "height":  1024,
+                                           "overflow":  false,
+                                           "formTop":  221.671875,
+                                           "firstControlTop":  312.171875,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  1024,
+                                           "height":  768,
+                                           "overflow":  false,
+                                           "formTop":  248.75,
+                                           "firstControlTop":  342.25,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  1440,
+                                           "height":  1000,
+                                           "overflow":  false,
+                                           "formTop":  248.75,
+                                           "firstControlTop":  342.25,
+                                           "h1":  1
+                                       },
+                                       {
+                                           "width":  1920,
+                                           "height":  1080,
+                                           "overflow":  false,
+                                           "formTop":  248.75,
+                                           "firstControlTop":  342.25,
+                                           "h1":  1
+                                       }
+                                   ],
+                       "accessibility":  [
+                                             {
+                                                 "route":  "/",
+                                                 "width":  320,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/",
+                                                 "width":  768,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/",
+                                                 "width":  1440,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/form-step-2-0",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/form-step-2-1",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/aviso-legal",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/privacidad",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             },
+                                             {
+                                                 "route":  "/cookies",
+                                                 "width":  390,
+                                                 "violations":  [
+
+                                                                ]
+                                             }
+                                         ],
+                       "forms":  [
+                                     {
+                                         "index":  0,
+                                         "validation":  true,
+                                         "consent":  true,
+                                         "statePreserved":  true,
+                                         "demoConfirmation":  true,
+                                         "reset":  true
+                                     },
+                                     {
+                                         "index":  1,
+                                         "validation":  true,
+                                         "consent":  true,
+                                         "statePreserved":  true,
+                                         "demoConfirmation":  true,
+                                         "reset":  true
+                                     }
+                                 ],
+                       "routes":  [
+                                      {
+                                          "route":  "/aviso-legal",
+                                          "status":  200,
+                                          "noindex":  true
+                                      },
+                                      {
+                                          "route":  "/privacidad",
+                                          "status":  200,
+                                          "noindex":  true
+                                      },
+                                      {
+                                          "route":  "/cookies",
+                                          "status":  200,
+                                          "noindex":  true
+                                      }
+                                  ],
+                       "errors":  [
+
+                                  ],
+                       "dataRequests":  [
+
+                                        ],
+                       "brokenResources":  [
+
+                                           ],
+                       "storage":  {
+                                       "local":  0,
+                                       "session":  0
+                                   },
+                       "cookies":  0,
+                       "success":  true
+                   }
+}

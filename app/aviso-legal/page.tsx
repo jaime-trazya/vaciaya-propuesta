@@ -1,90 +1,89 @@
-import type { Metadata } from 'next'
-import { LegalPage, LegalSection, Pending } from '@/components/legal-page'
-
+import type { Metadata } from "next";
+import { LegalPage, LegalSection } from "@/components/legal-page";
 export const metadata: Metadata = {
-  title: 'Aviso legal',
+  title: "Aviso legal",
   robots: { index: false, follow: false },
-}
-
+};
 export default function AvisoLegalPage() {
   return (
-    <LegalPage title="Aviso legal" updated="octubre de 2026">
-      <LegalSection title="1. Datos identificativos">
+    <LegalPage title="Aviso legal" updated="21 de octubre de 2026">
+      <p className="legal-prototype">
+        Esta web es un prototipo de demostración. Sus formularios no envían,
+        almacenan ni comparten datos y no generan una solicitud real.
+      </p>
+      <LegalSection title="1. Titular y contacto">
         <p>
-          En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
-          Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos del
-          titular de este sitio web:
-        </p>
-        <ul className="flex list-disc flex-col gap-1 pl-5">
-          <li>Titular: ANJA</li>
-          <li>
-            Forma jurídica: <Pending>forma jurídica</Pending>
-          </li>
-          <li>
-            NIF/CIF: <Pending>NIF o CIF</Pending>
-          </li>
-          <li>Domicilio: C/ Doctor Simarro 3, 46800 Xàtiva (Valencia)</li>
-          <li>
-            Correo electrónico:{' '}
-            <a href="mailto:info@vaciaya.es" className="text-primary underline underline-offset-2">
-              info@vaciaya.es
-            </a>
-          </li>
-          <li>
-            Datos registrales: <Pending>inscripción en el Registro Mercantil, si procede</Pending>
-          </li>
-          <li>Sitio web: vaciaya.es</li>
-        </ul>
-      </LegalSection>
-
-      <LegalSection title="2. Objeto del sitio web">
-        <p>
-          Vacía Ya es un servicio que permite a particulares y negocios solicitar presupuestos para
-          el vaciado de pisos, casas, oficinas, locales y otros inmuebles, así como para la retirada
-          de muebles y servicios relacionados.
+          Titular: ANJA.
+          <br />
+          Dirección: C/ Doctor Simarro 3, 46800 Xàtiva.
+          <br />
+          Contacto:{" "}
+          <a className="text-primary underline" href="mailto:info@vaciaya.es">
+            info@vaciaya.es
+          </a>
+          .<br />
+          Sitio web: vaciaya.es.
         </p>
         <p>
-          ANJA recibe y gestiona las solicitudes y podrá cederlas a empresas especializadas para que
-          estas elaboren y remitan sus presupuestos. ANJA no ejecuta directamente los trabajos de
-          vaciado ni es parte del contrato que, en su caso, el usuario celebre con dichas empresas.
-        </p>
-        <p>
-          Esta versión del sitio es un prototipo: el formulario no envía, almacena ni cede ningún
-          dato.
+          La información fiscal, societaria y registral que corresponda se
+          completará con datos verificados antes de activar el servicio.
         </p>
       </LegalSection>
-
-      <LegalSection title="3. Condiciones de uso">
+      <LegalSection title="2. Finalidad del sitio">
         <p>
-          El acceso al sitio web es gratuito y atribuye la condición de usuario. El usuario se
-          compromete a facilitar información veraz y a hacer un uso adecuado de los contenidos,
-          absteniéndose de emplearlos para fines ilícitos o que puedan perjudicar a terceros.
+          Vacía Ya presenta un servicio de solicitud de presupuestos para vaciar
+          pisos, casas, oficinas y locales, así como para la retirada de
+          muebles. El servicio previsto es de intermediación: ANJA gestionaría
+          las solicitudes y las comunicaría a empresas de vaciado, transporte y
+          logística para que pudieran valorarlas y ofrecer presupuesto.
+        </p>
+        <p>
+          ANJA no ejecuta los trabajos de vaciado. Las condiciones, el alcance y
+          la contratación del trabajo se acordarían directamente entre el
+          usuario y la empresa elegida.
         </p>
       </LegalSection>
-
-      <LegalSection title="4. Propiedad intelectual e industrial">
+      <LegalSection title="3. Uso del prototipo">
         <p>
-          Los textos, imágenes, diseño y demás elementos de este sitio web son titularidad de ANJA o
-          se utilizan con la debida autorización. Queda prohibida su reproducción, distribución o
-          transformación sin autorización expresa.
+          El acceso a esta demostración es gratuito. Completar el formulario no
+          supone contratar un servicio, reservar una fecha ni obtener un
+          presupuesto real. No se garantiza cobertura en ninguna localidad ni la
+          recepción de ofertas.
+        </p>
+        <p>
+          Utiliza el sitio de manera responsable, sin introducir información
+          sensible o datos de otras personas.
         </p>
       </LegalSection>
-
-      <LegalSection title="5. Responsabilidad">
+      <LegalSection title="4. Contenidos e imágenes">
         <p>
-          ANJA no garantiza que todas las solicitudes reciban presupuesto ni que exista cobertura en
-          todas las localidades. Los precios, plazos y condiciones de los servicios son fijados
-          exclusivamente por las empresas que, en su caso, presenten su presupuesto.
+          Los textos, la identidad visual y las imágenes se presentan como parte
+          de esta propuesta de diseño. Las fotografías de interiores son
+          ilustrativas y no documentan trabajos realizados ni inmuebles de
+          clientes.
         </p>
       </LegalSection>
-
-      <LegalSection title="6. Legislación aplicable">
+      <LegalSection title="5. Presupuestos y condiciones">
         <p>
-          Las presentes condiciones se rigen por la legislación española. Para cualquier
-          controversia, las partes se someterán a los juzgados y tribunales que correspondan
-          conforme a la normativa aplicable en materia de consumidores y usuarios.
+          El prototipo no publica precios ni plazos de ejecución. En el servicio
+          previsto, cada empresa definiría su presupuesto, disponibilidad y
+          condiciones tras valorar el inmueble y los objetos que deban
+          retirarse. Solicitar presupuesto no obligaría a contratar.
+        </p>
+      </LegalSection>
+      <LegalSection title="6. Información relacionada">
+        <p>
+          Consulta también la{" "}
+          <a className="text-primary underline" href="/privacidad">
+            política de privacidad
+          </a>{" "}
+          y la{" "}
+          <a className="text-primary underline" href="/cookies">
+            política de cookies
+          </a>{" "}
+          para conocer el funcionamiento de esta demostración.
         </p>
       </LegalSection>
     </LegalPage>
-  )
+  );
 }
