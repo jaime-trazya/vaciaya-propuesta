@@ -1,0 +1,26 @@
+[
+  {
+    "original": "dormitorio-despejado.webp",
+    "originalBytes": 93208,
+    "mobile": "dormitorio-despejado-640.webp",
+    "mobileBytes": 18622
+  },
+  {
+    "original": "local-vacio.webp",
+    "originalBytes": 123584,
+    "mobile": "local-vacio-640.webp",
+    "mobileBytes": 29060
+  },
+  {
+    "original": "oficina-vacia.webp",
+    "originalBytes": 59042,
+    "mobile": "oficina-vacia-640.webp",
+    "mobileBytes": 13154
+  },
+  {
+    "original": "pasillo-luz.webp",
+    "originalBytes": 102624,
+    "mobile": "pasillo-luz-640.webp",
+    "mobileBytes": 20998
+  }
+]

@@ -1,0 +1,494 @@
+{
+  "brand": "vaciaya",
+  "routes": [
+    {
+      "route": "/aviso-legal",
+      "problems": [],
+      "after": {
+        "title": "Aviso legal · Vacía Ya",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Aviso legal"
+          },
+          {
+            "tag": "H2",
+            "text": "1. Titular y contacto"
+          },
+          {
+            "tag": "H2",
+            "text": "2. Finalidad del sitio"
+          },
+          {
+            "tag": "H2",
+            "text": "3. Uso del prototipo"
+          },
+          {
+            "tag": "H2",
+            "text": "4. Contenidos e imágenes"
+          },
+          {
+            "tag": "H2",
+            "text": "5. Presupuestos y condiciones"
+          },
+          {
+            "tag": "H2",
+            "text": "6. Información relacionada"
+          }
+        ],
+        "meta": [
+          {
+            "key": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "key": "theme-color",
+            "content": "#773B49"
+          },
+          {
+            "key": "description",
+            "content": "Cuéntanos qué espacio necesitas vaciar y solicita presupuesto de manera sencilla. Un servicio de intermediación de ANJA."
+          },
+          {
+            "key": "robots",
+            "content": "noindex, nofollow"
+          },
+          {
+            "key": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "canonical": "https://vaciaya.es/aviso-legal",
+        "jsonld": [],
+        "links": [
+          "#contenido",
+          "/",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/#presupuesto",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "mailto:info@vaciaya.es",
+          "/privacidad",
+          "/cookies",
+          "/",
+          "mailto:info@vaciaya.es",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "#contenido"
+        ],
+        "images": [],
+        "bodyText": "Volver al inicio Con toda claridad Aviso legalPolítica de privacidadPolítica de cookies Vacía Ya / Información legal Aviso legal Última actualización: 21 de octubre de 2026 Esta web es un prototipo de demostración. Sus formularios no envían, almacenan ni comparten datos y no generan una solicitud real. 1. Titular y contacto Titular: ANJA.Dirección: C/ Doctor Simarro 3, 46800 Xàtiva.Contacto: info@vaciaya.es.Sitio web: vaciaya.es. La información fiscal, societaria y registral que corresponda se completará con datos verificados antes de activar el servicio. 2. Finalidad del sitio Vacía Ya presenta un servicio de solicitud de presupuestos para vaciar pisos, casas, oficinas y locales, así como para la retirada de muebles. El servicio previsto es de intermediación: ANJA gestionaría las solicitudes y las comunicaría a empresas de vaciado, transporte y logística para que pudieran valorarlas y ofrecer presupuesto. ANJA no ejecuta los trabajos de vaciado. Las condiciones, el alcance y la contratación del trabajo se acordarían directamente entre el usuario y la empresa elegida. 3. Uso del prototipo El acceso a esta demostración es gratuito. Completar el formulario no supone contratar un servicio, reservar una fecha ni obtener un presupuesto real. No se garantiza cobertura en ninguna localidad ni la recepción de ofertas. Utiliza el sitio de manera responsable, sin introducir información sensible o datos de otras personas. 4. Contenidos e imágenes Los textos, la identidad visual y las imágenes se presentan como parte de esta propuesta de diseño. Las fotografías de interiores son ilustrativas y no documentan trabajos realizados ni inmuebles de clientes. 5. Presupuestos y condiciones El prototipo no publica precios ni plazos de ejecución. En el servicio previsto, cada empresa definiría su presupuesto, disponibilidad y condiciones tras valorar el inmueble y los objetos que deban retirarse. Solicitar presupuesto no obligaría a contratar. 6. Información relacionada Consulta también la política de privacidad y la política de cookies para conocer el funcionamiento de esta demostración."
+      }
+    },
+    {
+      "route": "/cookies",
+      "problems": [],
+      "after": {
+        "title": "Política de cookies · Vacía Ya",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Política de cookies"
+          },
+          {
+            "tag": "H2",
+            "text": "1. Qué son las cookies"
+          },
+          {
+            "tag": "H2",
+            "text": "2. Funcionamiento de este prototipo"
+          },
+          {
+            "tag": "H2",
+            "text": "3. Preferencias"
+          },
+          {
+            "tag": "H2",
+            "text": "4. Cambios futuros"
+          },
+          {
+            "tag": "H2",
+            "text": "5. Contacto"
+          }
+        ],
+        "meta": [
+          {
+            "key": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "key": "theme-color",
+            "content": "#773B49"
+          },
+          {
+            "key": "description",
+            "content": "Cuéntanos qué espacio necesitas vaciar y solicita presupuesto de manera sencilla. Un servicio de intermediación de ANJA."
+          },
+          {
+            "key": "robots",
+            "content": "noindex, nofollow"
+          },
+          {
+            "key": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "canonical": "https://vaciaya.es/cookies",
+        "jsonld": [],
+        "links": [
+          "#contenido",
+          "/",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/#presupuesto",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "mailto:info@vaciaya.es",
+          "/",
+          "mailto:info@vaciaya.es",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "#contenido"
+        ],
+        "images": [],
+        "bodyText": "Volver al inicio Con toda claridad Aviso legalPolítica de privacidadPolítica de cookies Vacía Ya / Información legal Política de cookies Última actualización: 21 de octubre de 2026 1. Qué son las cookies Las cookies son pequeños archivos que un sitio web puede guardar en el dispositivo para recordar información sobre la visita o permitir determinadas funciones. 2. Funcionamiento de este prototipo Esta demostración no instala cookies de publicidad, análisis, seguimiento o redes sociales. No incorpora herramientas de medición de audiencia ni integraciones de terceros que realicen ese seguimiento. La aplicación tampoco utiliza cookies, almacenamiento local o almacenamiento de sesión para guardar los datos del formulario. Las fuentes y las imágenes se sirven desde el propio sitio. 3. Preferencias Al no incorporar cookies no esenciales, el prototipo no muestra un panel de aceptación. Puedes gestionar o eliminar las cookies de cualquier sitio desde los ajustes de privacidad de tu navegador. 4. Cambios futuros Si se añadieran funciones que utilicen cookies, esta política deberá actualizarse con su finalidad, duración y proveedor. Las cookies no esenciales requerirán la elección correspondiente antes de instalarse. 5. Contacto Responsable: ANJA.C/ Doctor Simarro 3, 46800 Xàtiva.Para consultas, escribe a info@vaciaya.es."
+      }
+    },
+    {
+      "route": "/",
+      "problems": [],
+      "after": {
+        "title": "Vacía Ya · Solicita presupuesto para vaciar tu piso o local",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "¿Necesitas vaciar un piso o local?"
+          },
+          {
+            "tag": "H2",
+            "text": "Hablemos de tu espacio"
+          },
+          {
+            "tag": "H3",
+            "text": "Paso 1: Tu espacio"
+          },
+          {
+            "tag": "H2",
+            "text": "Qué tipo de espacio necesitas vaciar"
+          },
+          {
+            "tag": "H3",
+            "text": "Pisos"
+          },
+          {
+            "tag": "H3",
+            "text": "Casas"
+          },
+          {
+            "tag": "H3",
+            "text": "Oficinas"
+          },
+          {
+            "tag": "H3",
+            "text": "Locales comerciales"
+          },
+          {
+            "tag": "H3",
+            "text": "Retirada de muebles"
+          },
+          {
+            "tag": "H2",
+            "text": "Todo el espacio.O solo una parte."
+          },
+          {
+            "tag": "H3",
+            "text": "Vaciado completo"
+          },
+          {
+            "tag": "H3",
+            "text": "Vaciado parcial"
+          },
+          {
+            "tag": "H2",
+            "text": "Hay muchas razonespara hacer espacio."
+          },
+          {
+            "tag": "H3",
+            "text": "Una reforma en el horizonte"
+          },
+          {
+            "tag": "H3",
+            "text": "Un cambio de vivienda"
+          },
+          {
+            "tag": "H3",
+            "text": "El cierre de un local"
+          },
+          {
+            "tag": "H3",
+            "text": "Una nueva distribución"
+          },
+          {
+            "tag": "H2",
+            "text": "El primer pasoes contárnoslo."
+          },
+          {
+            "tag": "H3",
+            "text": "Paso 1: Describe el inmueble y los objetos"
+          },
+          {
+            "tag": "H3",
+            "text": "Paso 2: ANJA gestiona tu solicitud"
+          },
+          {
+            "tag": "H3",
+            "text": "Paso 3: Las empresas pueden ofrecerte presupuesto"
+          },
+          {
+            "tag": "H2",
+            "text": "¿Dónde necesitas hacer espacio?"
+          },
+          {
+            "tag": "H2",
+            "text": "Antes dehacer espacio."
+          },
+          {
+            "tag": "H2",
+            "text": "Tu espacio.Su próximaposibilidad."
+          },
+          {
+            "tag": "H2",
+            "text": "Hablemos de tu espacio"
+          },
+          {
+            "tag": "H3",
+            "text": "Paso 1: Tu espacio"
+          }
+        ],
+        "meta": [
+          {
+            "key": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "key": "theme-color",
+            "content": "#773B49"
+          },
+          {
+            "key": "description",
+            "content": "Cuéntanos qué espacio necesitas vaciar y solicita presupuesto de manera sencilla. Un servicio de intermediación de ANJA."
+          },
+          {
+            "key": "robots",
+            "content": "noindex, nofollow"
+          },
+          {
+            "key": "googlebot",
+            "content": "noindex, nofollow"
+          },
+          {
+            "key": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "canonical": "https://vaciaya.es/",
+        "jsonld": [],
+        "links": [
+          "#contenido",
+          "/",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/#presupuesto",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/privacidad",
+          "#servicios",
+          "/#presupuesto-final",
+          "/#presupuesto-final",
+          "/#presupuesto-final",
+          "/#presupuesto-final",
+          "/#presupuesto-final",
+          "#presupuesto-final",
+          "#presupuesto-final",
+          "#presupuesto-final",
+          "/privacidad",
+          "/",
+          "mailto:info@vaciaya.es",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "#contenido"
+        ],
+        "images": [
+          "Salón despejado con suelo hidráulico y balcones de madera abiertos a la luz",
+          "Estancia vacía de un piso con balcones y suelo de mosaico",
+          "Habitación despejada de una casa con contraventanas de madera",
+          "Oficina diáfana con grandes ventanales y suelo continuo",
+          "Local comercial despejado y luminoso con escaparate acristalado",
+          "Pasillo despejado que conecta las estancias de una vivienda",
+          "Interior despejado con paredes claras y luz natural"
+        ],
+        "bodyText": "Un espacio para lo que viene ¿Necesitas vaciar un piso o local? Cuéntanos qué espacio necesitas vaciar y solicita presupuesto de manera sencilla. Solicitud gratuita Sin compromiso Tu solicitud de presupuesto Hablemos de tu espacio Sin coste Solicitud de presupuesto de demostración 1 Tu espacio2 Tus datos Paso 1: Tu espacio El espacio que quieres vaciar ¿Qué necesitas? * Vaciado completoVaciado parcial Tipo de inmueble * Piso Casa Oficina Local Otro Localidad o código postal * Fecha aproximada Superficie (m²) Habitaciones o espacios Una estimación es suficiente. Los campos con * son obligatorios. Tus datos de contacto Nombre * Teléfono * Correo electrónico * Muebles, objetos y circunstancias (opcional) Indica qué quieres retirar y cómo es el acceso. Evita datos de terceros o información sensible. Acepto que ANJA trate mis datos para gestionar mi solicitud y que los ceda a empresas de transporte y logística para que me envíen presupuesto. *Política de privacidad (se abre en otra pestaña) Atrás Pide presupuesto gratis Modo demostración. No se envían ni se guardan datos. <p class=\"field-error\"> Activa JavaScript para probar el formulario. Esta demostración no envía datos. </p> Demostración completada. No se ha enviado, guardado ni compartido ningún dato. No recibirás ningún presupuesto por esta simulación.Probar de nuevo Menos objetos. Más posibilidades.VACÍA YA — 01 Descubre cómo podemos orientarte 01 / Cada espacio es distinto Qué tipo de espacio necesitas vaciar Un inmueble entero, una habitación o unos muebles. Empieza por contarnos qué necesitas. 01 Pisos Una vivienda que deja sitio a una nueva etapa. 02 Casas Desde una estancia hasta la casa entera, incluidos sus anexos. 03 Oficinas Despachos y espacios de trabajo que necesitan otro comienzo. 04 Locales comerciales Deja espacio para el próximo uso de tu local. 05 Retirada de muebles También puedes pedir presupuesto para piezas concretas. 02 / Tú decides hasta dónde Todo el espacio.O solo una parte. No todos los vaciados son iguales. Describe lo que quieres retirar y lo que debe quedarse. A / EL ALCANCE Vaciado completo Para retirar los muebles y objetos del conjunto del inmueble. Indica también si hay trasteros, garajes o terrazas. Describir mi espacio B / EL ALCANCE Vaciado parcial Para despejar algunas estancias o retirar piezas concretas. Explica qué objetos quieres conservar. Describir mi espacio El alcance del trabajo y sus condiciones se concretan con la empresa que presente el presupuesto. 03 / Situaciones habituales Hay muchas razonespara hacer espacio. 01 Una reforma en el horizonte Despejar las estancias para preparar el espacio antes de empezar una obra. 02 Un cambio de vivienda Retirar los muebles y objetos que no se trasladarán al nuevo hogar. 03 El cierre de un local Organizar el vaciado al finalizar una actividad o un alquiler. 04 Una nueva distribución Liberar una habitación, un despacho o ese espacio que quieres usar de otra manera. 04 / Cómo funciona El primer pasoes contárnoslo. Vacía Ya conecta tu necesidad con empresas que pueden valorar el trabajo. Servicio de intermediación de ANJA. Los trabajos se acuerdan directamente con la empresa elegida. 01 Paso 1: Describe el inmueble y los objetos Cuéntanos dónde está, qué quieres retirar y cuándo te vendría bien. No necesitas tener todos los detalles. 02 Paso 2: ANJA gestiona tu solicitud La información sirve para orientar tu petición hacia empresas del sector del vaciado, el transporte y la logística. 03 Paso 3: Las empresas pueden ofrecerte presupuesto Si pueden atender tu petición, podrán contactarte para concretar los detalles y presentarte su propuesta. Tú decides. La ubicación importa ¿Dónde necesitas hacer espacio? Indica tu localidad o código postal para poder valorar la petición. La posibilidad de recibir presupuesto depende de las empresas que puedan atenderla en esa zona. Indicar mi localidad 05 / Resolvemos tus dudas Antes dehacer espacio. Lo que conviene saber para describir tu solicitud con tranquilidad. ¿Tengo que saber la superficie exacta? No. Una estimación de los metros cuadrados y del número de habitaciones es suficiente como orientación. Puedes dejar estos campos sin completar si no lo sabes y explicar en comentarios cuánto ocupa lo que quieres retirar. ¿Puedo solicitar un vaciado parcial? Sí. Selecciona «Vaciado parcial» y describe las habitaciones, los muebles o los objetos que quieres retirar. Indica también qué debe quedarse en el inmueble para que la empresa pueda valorar el alcance. ¿Cómo describo los muebles y objetos? Enumera las piezas principales, su cantidad y sus dimensiones aproximadas si las conoces. Por ejemplo: un sofá, dos armarios y diez cajas. Añade la planta, si hay ascensor y cualquier detalle sobre el acceso. Evita incluir datos personales de terceros. ¿Puedo proponer una fecha? Sí. La fecha aproximada es una referencia para valorar tu petición. La disponibilidad y el día del trabajo se acuerdan con la empresa que presente el presupuesto; no se garantiza una fecha por completar el formulario. ¿Quién gestiona la solicitud y quién hace el vaciado? ANJA gestiona el servicio de intermediación de Vacía Ya. Las empresas de vaciado, transporte y logística pueden valorar la solicitud y presentar su presupuesto. El trabajo y sus condiciones se contratan directamente con la empresa elegida. ¿Se envía algún dato en esta demostración? No. Este prototipo permite probar el formulario, pero no envía, guarda ni comparte los datos introducidos. Al terminar verás una confirmación que indica expresamente que se trata de una demostración. Un nuevo comienzo empieza aquí Tu espacio.Su próximaposibilidad. Cuéntanos qué necesitas vaciar.El primer paso es así de sencillo. Solicitar presupuesto es gratuito y no te obliga a contratar ningún servicio. Tu solicitud de presupuesto Hablemos de tu espacio Sin coste Solicitud de presupuesto de demostración 1 Tu espacio2 Tus datos Paso 1: Tu espacio El espacio que quieres vaciar ¿Qué necesitas? * Vaciado completoVaciado parcial Tipo de inmueble * Piso Casa Oficina Local Otro Localidad o código postal * Fecha aproximada Superficie (m²) Habitaciones o espacios Una estimación es suficiente. Los campos con * son obligatorios. Tus datos de contacto Nombre * Teléfono * Correo electrónico * Muebles, objetos y circunstancias (opcional) Indica qué quieres retirar y cómo es el acceso. Evita datos de terceros o información sensible. Acepto que ANJA trate mis datos para gestionar mi solicitud y que los ceda a empresas de transporte y logística para que me envíen presupuesto. *Política de privacidad (se abre en otra pestaña) Atrás Pide presupuesto gratis Modo demostración. No se envían ni se guardan datos. <p class=\"field-error\"> Activa JavaScript para probar el formulario. Esta demostración no envía datos. </p> Demostración completada. No se ha enviado, guardado ni compartido ningún dato. No recibirás ningún presupuesto por esta simulación.Probar de nuevo"
+      }
+    },
+    {
+      "route": "/privacidad",
+      "problems": [],
+      "after": {
+        "title": "Política de privacidad · Vacía Ya",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Política de privacidad"
+          },
+          {
+            "tag": "H2",
+            "text": "1. Responsable"
+          },
+          {
+            "tag": "H2",
+            "text": "2. Qué ocurre en esta demostración"
+          },
+          {
+            "tag": "H2",
+            "text": "3. Datos previstos para el servicio"
+          },
+          {
+            "tag": "H2",
+            "text": "4. Finalidad y consentimiento previstos"
+          },
+          {
+            "tag": "H2",
+            "text": "5. Comunicación a empresas"
+          },
+          {
+            "tag": "H2",
+            "text": "6. Conservación"
+          },
+          {
+            "tag": "H2",
+            "text": "7. Derechos y contacto"
+          },
+          {
+            "tag": "H2",
+            "text": "8. Antes de activar el servicio"
+          }
+        ],
+        "meta": [
+          {
+            "key": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "key": "theme-color",
+            "content": "#773B49"
+          },
+          {
+            "key": "description",
+            "content": "Cuéntanos qué espacio necesitas vaciar y solicita presupuesto de manera sencilla. Un servicio de intermediación de ANJA."
+          },
+          {
+            "key": "robots",
+            "content": "noindex, nofollow"
+          },
+          {
+            "key": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "canonical": "https://vaciaya.es/privacidad",
+        "jsonld": [],
+        "links": [
+          "#contenido",
+          "/",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/#presupuesto",
+          "/#servicios",
+          "/#como-funciona",
+          "/#preguntas",
+          "/",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "mailto:info@vaciaya.es",
+          "mailto:info@vaciaya.es",
+          "https://www.aepd.es",
+          "/",
+          "mailto:info@vaciaya.es",
+          "/aviso-legal",
+          "/privacidad",
+          "/cookies",
+          "#contenido"
+        ],
+        "images": [],
+        "bodyText": "Volver al inicio Con toda claridad Aviso legalPolítica de privacidadPolítica de cookies Vacía Ya / Información legal Política de privacidad Última actualización: 21 de octubre de 2026 El formulario está en modo demostración: los datos introducidos no se envían, guardan ni comparten. Esta página distingue ese funcionamiento actual del tratamiento previsto para un futuro servicio operativo. 1. Responsable ANJA.C/ Doctor Simarro 3, 46800 Xàtiva.Contacto: info@vaciaya.es. 2. Qué ocurre en esta demostración Los datos se mantienen únicamente en los campos de la página abierta. Se usan en el navegador para comprobar que el formulario está completo y mostrar una confirmación de demostración. No hay conexión del formulario con un servidor, una base de datos, un correo electrónico ni empresas destinatarias. Puedes borrar los campos al finalizar con «Vaciar el formulario». No utilizamos almacenamiento local ni cookies para conservar su contenido. La casilla de consentimiento forma parte de la demostración y no activa ningún envío. 3. Datos previstos para el servicio Si se activa el servicio, la solicitud incluiría el nombre, teléfono y correo electrónico, junto con el tipo de vaciado, tipo de inmueble, localidad o código postal, fecha aproximada, superficie, número de espacios y descripción de muebles u objetos. Los campos opcionales ayudan a describir el trabajo. No incluyas datos de terceros ni información sensible, como datos sobre salud o circunstancias personales delicadas. 4. Finalidad y consentimiento previstos La finalidad prevista es gestionar la petición y comunicarla a empresas de vaciado, transporte y logística para que puedan contactar con la persona solicitante y preparar un presupuesto. El consentimiento se solicitaría mediante una casilla obligatoria, inicialmente desmarcada, con acceso a esta información. El consentimiento para esa finalidad no incluiría publicidad ni otras finalidades ajenas a la solicitud. La activación del servicio requerirá completar y verificar previamente la información del tratamiento. 5. Comunicación a empresas En el servicio previsto, los destinatarios serían empresas de vaciado, transporte y logística que pudieran atender la petición en la ubicación indicada. La comunicación tendría como finalidad valorar el trabajo, contactar con la persona solicitante y remitir presupuesto. Actualmente no se comunica ningún dato del formulario. Antes de activar los envíos deberán concretarse los destinatarios, los proveedores tecnológicos, sus funciones y las garantías aplicables, incluidas las de posibles transferencias internacionales. 6. Conservación La demostración no conserva los datos del formulario. Para el servicio futuro, ANJA deberá definir e informar del plazo de conservación y de los criterios aplicables a la gestión de solicitudes y a las responsabilidades legales, antes de comenzar a recoger datos. 7. Derechos y contacto Puedes dirigirte a info@vaciaya.es para consultas sobre privacidad. En relación con tratamientos de datos personales, puedes solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad cuando proceda, así como retirar el consentimiento. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos. La retirada del consentimiento no afecta a la licitud de un tratamiento previo basado en él. 8. Antes de activar el servicio Esta política deberá actualizarse con la identificación completa del responsable y las condiciones reales del tratamiento antes de permitir solicitudes efectivas. Mientras tanto, cualquier confirmación del formulario indica expresamente que se trata de una demostración."
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false,
+      "formTop": 409.484375,
+      "brokenImages": []
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "formTop": 416.484375,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "formTop": 416.484375,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "formTop": 420.765625,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "formTop": 221.671875,
+      "brokenImages": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "formTop": 248.75,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "formTop": 248.75,
+      "brokenImages": []
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "accessibility": []
+}

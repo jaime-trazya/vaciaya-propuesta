@@ -1,0 +1,9 @@
+{
+  "originalBytes": 40983,
+  "finalBytes": 40390,
+  "unusedSimpleRulesRemoved": 8,
+  "fontClassRenames": {
+    "QVpZOG_variable": "font-cormorant",
+    "I5wOpG_variable": "font-dm-sans"
+  }
+}

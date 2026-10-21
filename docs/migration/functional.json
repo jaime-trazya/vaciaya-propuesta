@@ -1,0 +1,30 @@
+{
+  "brand": "vaciaya",
+  "forms": [
+    {
+      "form": 0,
+      "steps": 2,
+      "empty": true,
+      "email": true,
+      "phone": true,
+      "consent": true,
+      "success": true,
+      "reset": true
+    },
+    {
+      "form": 1,
+      "steps": 2,
+      "empty": true,
+      "email": true,
+      "phone": true,
+      "consent": true,
+      "success": true,
+      "reset": true
+    }
+  ],
+  "menu": true,
+  "faq": true,
+  "requests": [],
+  "errors": [],
+  "storageEntries": 0
+}

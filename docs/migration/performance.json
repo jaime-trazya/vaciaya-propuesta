@@ -1,0 +1,15 @@
+{
+  "brand": "vaciaya",
+  "environment": "Local Edge; Lighthouse mobile simulation; no field INP measurement",
+  "version": "13.5.0",
+  "scores": {
+    "performance": 94,
+    "accessibility": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": 2333.8835,
+    "cumulative-layout-shift": 0.0008836050916989231,
+    "total-blocking-time": 229
+  },
+  "warnings": []
+}

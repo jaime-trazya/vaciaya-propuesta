@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/aviso-legal",
+    "contentExactIgnoringWhitespace": true,
+    "altExact": true,
+    "withoutJavaScript": true
+  },
+  {
+    "route": "/cookies",
+    "contentExactIgnoringWhitespace": true,
+    "altExact": true,
+    "withoutJavaScript": true
+  },
+  {
+    "route": "/",
+    "contentExactIgnoringWhitespace": true,
+    "altExact": true,
+    "withoutJavaScript": true
+  },
+  {
+    "route": "/privacidad",
+    "contentExactIgnoringWhitespace": true,
+    "altExact": true,
+    "withoutJavaScript": true
+  }
+]
